@@ -79,19 +79,19 @@ public class Formula extends JFrame {
 
         button1.addActionListener(new ButtonEvent1()); // обработка нажатия кнопки
         container.add(button1);
-        button1.setBackground(Color.CYAN); // задаем цвет кнопок
+        button1.setBackground(Color.GREEN); // задаем цвет кнопок
 
         button2.addActionListener(new ButtonEvent2());
         container.add(button2);
-        button2.setBackground(Color.CYAN);
+        button2.setBackground(Color.RED);
 
         button3.addActionListener(new ButtonEvent3());
         container.add(button3);
-        button3.setBackground(Color.GREEN);
+        button3.setBackground(Color.CYAN);
 
         button4.addActionListener(new ButtonEvent4());
         container.add(button4);
-        button4.setBackground(Color.GREEN);
+        button4.setBackground(Color.GRAY);
 
     }
 
